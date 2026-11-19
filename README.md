@@ -1,21 +1,26 @@
 # Dart OOP Assignment: Kigali Bus Card
 
-**Name:** Abdalrahman Abdalkarim
+**Name:** Abdalrahman Abdalkarim  
 **Student ID:** 27052
 
-## Part 5
+## My numbers
+- D = 52
+- L = 2
+- Starting balance = 1520 RWF
+- Bus fare = 252 RWF
+- Student discount = 12%
 
-My prediction:
-It will print:
-1
-5
-
-Why:
-- For `a` (Bag): `_items` starts at 0. Calling `a.add()` makes it 1. Then `a.items = -5` is ignored because the setter only accepts values >= 0. So `print(a.items)` prints 1.
-- For `b` (BigBag): `BigBag` overrides `add()` to call `super.add()` twice, so each `b.add()` adds 2. Calling `b.add()` twice makes `_items` equal to 4. Then `b.items = b.items + 1` makes it 5. So `print(b.items)` prints 5.
-
-Real output:
-(to be added after running)
-
-Was I right?
-(to be added after running)
+## Output of main.dart
+```text
+Error: name too short
+Owner: Abdalrahman | Balance: 1520 RWF
+Owner: Abdalrahman Abdalkarim | Balance: 1520 RWF
+Error: top-up must be 500 to 50000 RWF
+Topped up 2000 RWF
+Paid 252 RWF
+Paid 252 RWF
+Owner: Abdalrahman Abdalkarim | Balance: 3016 RWF
+Student discount: 30 RWF
+Paid 222 RWF
+Owner: Abdalrahman Abdalkarim | Balance: 1298 RWF
+Student card: 12% off
